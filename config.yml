@@ -5,7 +5,7 @@
 
   - name: motd player
     copy: 
-        content: "Ansible Managed by hideki\n"
+        content: "Ansible Managed by pabilani\n"
         dest: /etc/motd
 
   - name: install apache and php for Ubuntu servers
